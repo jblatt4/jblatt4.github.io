@@ -1,0 +1,53 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+    
+}
+
+html {
+	        background: url(images/backdrop.jpg) no-repeat center fixed;
+	        background-size: cover;
+}
+
+#cook {
+    margin: auto;
+    display: block;
+}
+#espnimg {
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
+#ytubeimg {
+    position: absolute;
+    left: 475px;
+    top: 150px;
+}
+#ggleimg {
+    position: absolute;
+    left: 820px;
+    top: 150px
+}
+#contact{
+    margin: auto;
+    display: block;
+}
